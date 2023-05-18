@@ -1,0 +1,120 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    margin-top: 20px;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .mt-2 {
+    margin-top: 10px;
+  }
+  
+  .mt-3 {
+    margin-top: 15px;
+  }
+  
+  .mt-4 {
+    margin-top: 20px;
+  }
+  
+  .my-3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .my-4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .py-5 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .background {
+    background-color: #f2f2f2;
+  }
+  
+  /* CV Form Styles */
+  #cv-form {
+    display: block;
+  }
+  
+  #cv-template {
+    display: none;
+  }
+  
+  /* CV Template Styles */
+  #cv-template .container {
+    padding: 20px;
+  }
+  
+  #cv-template .background {
+    background-color: #f2f2f2;
+    margin-bottom: 30px;
+  }
+  
+  #cv-template p {
+    margin-bottom: 10px;
+  }
+  
+  #cv-template .addressT {
+    margin-bottom: 0;
+  }
+  
+  #cv-template .card {
+    margin-bottom: 30px;
+  }
+  
+  #cv-template h1 {
+    font-size: 24px;
+  }
+  
+  #cv-template h3 {
+    margin-bottom: 10px;
+  }
+  
+  #cv-template ul {
+    margin: 0;
+    padding-left: 20px;
+  }
+  
+  /* Print Styles */
+  @media print {
+    body {
+      font-size: 14px;
+    }
+  
+    #cv-template .container {
+      padding: 0;
+      margin: 0;
+    }
+  
+    #cv-template .background {
+      background-color: transparent;
+    }
+  
+    #cv-template h1 {
+      font-size: 20px;
+    }
+  
+    #cv-template .card {
+      margin-bottom: 15px;
+    }
+  
+    #cv-template ul {
+      padding-left: 15px;
+    }
+  
+    #cv-template .container.text-center {
+      display: none;
+    }
+  }
+  
